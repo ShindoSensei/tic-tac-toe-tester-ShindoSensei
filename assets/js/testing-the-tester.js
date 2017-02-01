@@ -1,4 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
   function TTT () {
     // Declaring game variables
     var grid = []
@@ -158,4 +158,4 @@
   })
   // Adding 'click' event listener to restart button
   restartButt.addEventListener('click', ticTacToe.restart)
-// })
+})
